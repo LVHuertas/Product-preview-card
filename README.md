@@ -4,49 +4,51 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-- [Author](#author)
+- [Descripción general](#descripcion-general)
+  - [El desafío](#el-desafio)
+  - [Prueba](#prueba)
+- [Mi proceso](#mi-proceso)
+  - [Contruido con](#construido-con)
+  - [¿Qué aprendí?](#qué-aprendí)
+  - [Desarrollo a futuro](#desarrollo-a-futuro)
+- [Autor](#autor)
 
-## Overview
+## Descripción general
 
-### The challenge
+### El desafío
 
-Users should be able to:
+El usuario debería ser capaz:
 
-- View the optimal layout depending on their device's screen size
-- See hover and focus states for interactive elements
+- Escoger entre diferentes tipos de conversión, entre ellas: Divisa, longitud, masa, velocidad y tiempo.
+- Según la opción escogida, se desplegarán otras opciones para elección: 
+  - En el caso "Divisa": pesos colombianos, dolares, euros, libras esterlina, yen japonés y won sur-coreano.
+  - En el caso "Longitud": centrímetros, metros y kilómetros.
+  - En el caso "Masa": gramos y kilogramos.
+  - En el caso "Velocidad": metros por segundo a kilómetros por hora.
+  - En el caso "Tiempo": segundos, minutos y horas.
+- Si el usuario ingresa un valor inválido, podrá elegir entre volver al menú principal, escoger opciones de la conversión elegida o salir de la aplicación.
 
-### Screenshot
+### Prueba
 
-[Desktop design](solution/desktop-design.png)
+[Prueba conversor](/grabacion/prueba-conversor.mkv)
 
-[Mobile design](solution/mobile-design.png)
+## Mi proceso
 
-## My process
+### Construido con 
 
-### Built with
+- Java
+- JOptionPane
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- Mobile-first workflow
+### ¿Qué aprendí?
 
-### What I learned
+Uso de clases y métodos en Java.
 
-I learned how to used flexbox for this challenges. I used a Mobile-first design what makes me a little difficult to finish. 
+### Desarrollo a futuro
 
-### Continued development
+Intenté solucionar todos los errores y problemas que se puedan presentar.
 
-I had some troubles with images on how to put them in the right way. Also, I think button has sombe problems. 
+Me gustaría implementar más opciones en algunos conversiones más adelante.
 
-I didn´t understand what I need to do with hover and focus states, so I put a hover in button with only a slightly opacity. 
+## Autor
 
-## Author
-
-- Frontend Mentor - [@LVHuertas](https://www.frontendmentor.io/profile/LVHuertas)
+- Luis Armando Villarreal - [@LVHuertas](https://github.com/LVHuertas/)
